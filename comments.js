@@ -12,4 +12,4 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Set up mongoose connection
 var mongoose = require('mongoose');
-var mongoDB = 'mongodb://
+var mongoDB = 'mongodb://localhost:27017/comments';
